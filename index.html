@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To CJ</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>To CJ,</strong>
+                        <p>
+                            Merry Christmas!
+                            It's been a while dugay na tika nakaila katong gi pa ila ko nimo ni Glennis.  
+                            Ulaw kayo ko haha and I finally have the courage to do so. I was just thinking of you
+                            and hoping all is well. Congrats on passing the PNLE! :> - Charl
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart">
+        </div>
+        <div class="mp3">
+            <audio controls autoplay muted src="Taylor Swift - Daylight (Official Audio).mp3"></audio>
+        </div>
+        </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
